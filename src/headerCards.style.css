@@ -1,0 +1,10 @@
+.square-cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 130px;
+  cursor: pointer;
+}
+
+.square-cards:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
