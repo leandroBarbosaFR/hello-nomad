@@ -1,4 +1,4 @@
-import { WifiIcon, HeartIcon, HashtagIcon } from '@heroicons/react/24/outline'
+import { WifiIcon, BuildingStorefrontIcon, HashtagIcon } from '@heroicons/react/24/outline'
 import './headerCards.style.css';
 
 const supportLinks = [
@@ -17,11 +17,11 @@ const supportLinks = [
     icon: WifiIcon,
   },
   {
-    name: 'Around you',
+    name: 'Are you a host?',
     href: '#',
     description:
-      'Find other nomads in your area and connect with them.',
-    icon: HeartIcon,
+      'If you have a coworking space or office that you would like to list on our site, please contact us.',
+    icon: BuildingStorefrontIcon,
   },
 ]
 

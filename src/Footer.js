@@ -1,17 +1,3 @@
-/*
-  This example requires some changes to your config:
-
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
-*/
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
 const navigation = {
@@ -259,7 +245,7 @@ export default function Footer() {
             ))}
           </div>
           <p className="mt-8 text-base text-gray-400 md:order-1 md:mt-0">
-            &copy; 2020 Your Company, Inc. All rights reserved.
+            &copy; 2023 Nomad office, Inc. All rights reserved.
           </p>
         </div>
       </div>
